@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Border -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="?attr/cornerRadius" />
+            <solid android:color="?borderColor" />
+        </shape>
+    </item>
+
+    <!-- Background -->
+    <item
+        android:bottom="?borderWidth"
+        android:left="?borderWidth"
+        android:top="?borderWidth">
+        <shape android:shape="rectangle">
+            <corners android:radius="?attr/cornerRadius" />
+            <solid android:color="?attr/backgroundTint" />
+        </shape>
+    </item>
+
+</layer-list>

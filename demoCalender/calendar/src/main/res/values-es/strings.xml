@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="event_title_default">(Sin título)</string>
+    <string name="event_title_add">+ Añadir evento</string>
+
+</resources>
